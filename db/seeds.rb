@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+mobile = Mobile.find_or_create_by(name: "Test", size: "test", price: 1000)
+link = mobile.links.create(url: "http://www.google.com", description: "It will take you to google")

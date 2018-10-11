@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the demo project create by me in which I have setup graphQL basic structure via `gem 'graphql', '1.7.4'`.
 
 Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Just clone it. run
+`bundle install`
+`rake db:create`
+`rake db:migrate`
+`rake db:seed`
+and you are good to go. For documentation please refer to [Contribution guidelines for this project](https://www.howtographql.com/graphql-ruby/0-introduction/)
